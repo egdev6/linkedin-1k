@@ -30,9 +30,10 @@ const NavBar: FC = () => {
             className={`fi fi-es cursor-pointer transition-opacity text-xl ${
               i18n.language === 'es' ? 'opacity-100' : 'opacity-20 hover:opacity-75'
             }`}
+            role='button'
             title={t('homePage.es')}
             aria-label={t('homePage.switchToSpanish')}
-            aria-current={i18n.language === 'es' ? 'page' : undefined}
+            aria-pressed={i18n.language === 'es'}
             tabIndex={0}
             onClick={() => toggleLanguage('es')}
             onKeyDown={(e) => {
@@ -45,9 +46,10 @@ const NavBar: FC = () => {
             className={`fi fi-sh cursor-pointer transition-opacity text-xl ${
               i18n.language === 'en' ? 'opacity-100' : 'opacity-20 hover:opacity-75'
             }`}
+            role='button'
             title={t('homePage.en')}
             aria-label={t('homePage.switchToEnglish')}
-            aria-current={i18n.language === 'en' ? 'page' : undefined}
+            aria-pressed={i18n.language === 'en'}
             tabIndex={0}
             onClick={() => toggleLanguage('en')}
             onKeyDown={(e) => {
