@@ -27,8 +27,6 @@ export const headerVariants = tv({
     }
   },
   defaultVariants: {
-    size: undefined,
-    color: 'default',
     prominent: false
   }
 });
