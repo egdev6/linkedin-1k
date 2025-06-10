@@ -27,21 +27,9 @@
 </div>
 <!-- PROJECT LOGO -->
 
-[![react-boilerplate.jpg](https://i.postimg.cc/y8KwK9hF/react-boilerplate.jpg)](https://postimg.cc/ZCffFWMR)
-<br />
+![SCR-20250610-tqly](https://github.com/user-attachments/assets/cd0f2e81-a441-4a01-94cb-1e35cf7f2511)
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li><a href="#built-with">Built With</a></li>
-    <li><a href="#next-steps">Next Steps</a></li>
-    <li><a href="#component-creator">Egdev Component creator</a></li>
-		<li><a href="#storybook-watch">Storybook watch</a></li>
-    <li><a href="#scripts">Useful Scripts</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ol>
-</details>
+<br />
 
 <!-- BUILT IN -->
 
