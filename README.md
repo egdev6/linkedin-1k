@@ -49,54 +49,18 @@
 
 <div align="center" id='built-with'>
 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Zustand](https://img.shields.io/badge/zustand-brown?style=for-the-badge&logo=react&logoColor=white) ![Lefthook](https://img.shields.io/badge/lefthook-c90e14?style=for-the-badge&logo=lefthook&logoColor=white) ![React Query](https://img.shields.io/badge/-React%20Query-FF4154?style=for-the-badge&logo=react%20query&logoColor=white) ![Biome](https://img.shields.io/badge/Biome-60A5FA?style=for-the-badge&logo=biome&logoColor=white) ![PNPM](https://img.shields.io/badge/Pnpm-gray?style=for-the-badge&logo=pnpm&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![Vitest](https://img.shields.io/badge/Vitest-9BBF1F?style=for-the-badge&logo=vitest&logoColor=white)
-
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Lottie](https://img.shields.io/badge/lottie-00DDB3?style=for-the-badge&logo=lottiefiles&logoColor=white)![Zustand](https://img.shields.io/badge/zustand-brown?style=for-the-badge&logo=react&logoColor=white) ![Lefthook](https://img.shields.io/badge/lefthook-c90e14?style=for-the-badge&logo=lefthook&logoColor=white) ![Biome](https://img.shields.io/badge/Biome-60A5FA?style=for-the-badge&logo=biome&logoColor=white) ![PNPM](https://img.shields.io/badge/Pnpm-gray?style=for-the-badge&logo=pnpm&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
 </div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Last Updates
-<div id='next-steps'>
 
-- [X] Custom tools to component, pages, hooks and service files creation (compilot-cli)
-- [X] Dark/Light theme
+## Special thanx
 
-</div>
+A heartfelt thank you to everyone who has supported this project and helped it grow. Reaching 1000 followers on LinkedIn is a milestone that wouldn't have been possible without your encouragement and engagement. Your support inspires us to continue creating and sharing amazing content. Thank you for being part of this journey!
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Compilot CLI
-
-<div id='component-creator'>
-
-More informations here -> https://github.com/egdev6/compilot-cli/
-
-```
-npx compilot-cli
-```
-
-</div>
-
-## Useful commands:
-
-<div id='scripts'>
-
-Starts the server in development mode
-
-  ```
-  pnpm run dev
-  ```
-Reinstalls dependencies and clears React’s cache
-
-  ```
-  pnpm run reinstall
-  ```
-Clears Storybook’s cache
-
-  ```
-  pnpm run storybook-clean-cache
-  ```
-
-</div>
 
 ## Contact
 
@@ -113,12 +77,12 @@ Clears Storybook’s cache
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[stars-shield]: https://img.shields.io/github/stars/egdev6/egdev-react-boilerplate.svg?style=for-the-badge
-[stars-url]: https://github.com/egdev6/egdev-react-boilerplate/stargazers
-[issues-shield]: https://img.shields.io/github/issues/egdev6/egdev-react-boilerplate.svg?style=for-the-badge
-[issues-url]: https://github.com/egdev6/egdev-react-boilerplate/issues
-[license-shield]: https://img.shields.io/github/license/egdev6/egdev-react-boilerplate.svg?style=for-the-badge
-[license-url]: https://github.com/egdev6/egdev-react-boilerplate/blob/master/LICENSE.txt
+[stars-shield]: https://img.shields.io/github/stars/egdev6/linkedin-1k.svg?style=for-the-badge
+[stars-url]: https://github.com/egdev6/linkedin-1k/stargazers
+[issues-shield]: https://img.shields.io/github/issues/egdev6/linkedin-1k.svg?style=for-the-badge
+[issues-url]: https://github.com/egdev6/linkedin-1k/issues
+[license-shield]: https://img.shields.io/github/license/egdev6/linkedin-1k.svg?style=for-the-badge
+[license-url]: https://github.com/egdev6/linkedin-1k/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/egdev6
 [product-screenshot]: images/screenshot.png
