@@ -1,3 +1,4 @@
+import Loader from '@atoms/loader/Loader';
 import Layout from '@templates/layout';
 import { Suspense, lazy } from 'react';
 import { Navigate, Route, createBrowserRouter, createRoutesFromElements } from 'react-router-dom';
@@ -10,7 +11,7 @@ const Router = createBrowserRouter(
     <Route
       path='/'
       element={
-        <Suspense fallback={<h1>Loading...</h1>}>
+        <Suspense fallback={<Loader />}>
           <Layout />
         </Suspense>
       }
