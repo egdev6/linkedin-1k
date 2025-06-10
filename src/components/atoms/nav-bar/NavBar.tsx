@@ -32,7 +32,7 @@ const NavBar: FC = () => {
             }`}
             title={t('homePage.es')}
             aria-label={t('homePage.switchToSpanish')}
-            aria-current={i18n.language === 'es' ? 'true' : undefined}
+            aria-current={i18n.language === 'es' ? 'page' : undefined}
             tabIndex={0}
             onClick={() => toggleLanguage('es')}
             onKeyDown={(e) => {
