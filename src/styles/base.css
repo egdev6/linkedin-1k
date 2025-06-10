@@ -6,8 +6,73 @@
   html{
     @apply font-secondary;
   }
+  
+  *{
+    @apply focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-dark-100
+  }
 
   #app {
     @apply overflow-hidden min-h-dvh w-full
+  }
+
+  .homepage-view > div > div > svg > g > g:first-child > g > path {
+    fill: var(--color-primary) !important;
+  }
+
+  .homepage-view > div > div > div > svg > g > g:last-child > g > path{
+    fill: white !important;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes fadeOut {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  .fade-in {
+    animation: fadeIn 0.3s ease-in-out 0.8s forwards;
+    opacity:0;
+  }
+  .fade-out {
+    animation: fadeOut 0.3s ease-in-out forwards;
+  }
+
+  @keyframes animationEnter{
+    0% {
+      opacity: 0;
+      transform: translateY(40px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes animationExit{
+    0% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(40px);
+    }
+  }
+  .animate-enter {
+    animation: animationEnter 0.3s ease-in-out 0.8s forwards;
+    opacity:0;
+  }
+  .animate-exit {
+    animation: animationExit 0.3s ease-in-out forwards;
   }
 }

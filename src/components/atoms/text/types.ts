@@ -3,27 +3,24 @@ import type { VariantProps } from 'tailwind-variants';
 import { tv } from 'tailwind-variants';
 
 export const textVariants = tv({
-  base: 'font-secondary font-normal leading-[1.2]',
+  base: 'font-normal leading-[1.2] text-text-light dark:text-text-dark tracking-widest',
   variants: {
-    size: {
-      h1: 'fs-h1',
-      h2: 'fs-h2',
-      h3: 'fs-h3',
-      h4: 'fs-h4',
-      h5: 'fs-h5',
-      h6: 'fs-h6',
+    font: {
+      primary: 'font-primary',
+      secondary: 'font-secondary',
+      secondaryBold: 'font-secondaryBold'
+    },
+    tag: {
       p: 'fs-base',
       span: 'fs-base',
       small: 'fs-small'
     },
-    color: {
-      default: 'text-[var(--color-text)] dark:text-[var(--color-dark-text)]',
-      primary: 'text-primary',
-      secondary: 'text-secondary',
-      accent: 'text-accent'
-    },
     prominent: {
       true: 'font-bold',
+      false: ''
+    },
+    srOnly: {
+      true: 'sr-only',
       false: ''
     }
   },
@@ -34,10 +31,50 @@ export const textVariants = tv({
   }
 });
 
-export type TextVariant = keyof typeof textVariants.variants.size;
+export type TextVariant = keyof typeof textVariants.variants.tag;
+export type TextFont = keyof typeof textVariants.variants.font;
 
-export type TextProps = {
-  children: ReactNode;
-  tag?: TextVariant;
+type BaseTextProps = {
+  /**
+   * @control select
+   * @default secondary
+   * */
+  font?: TextFont;
+  /**
+   * @control select
+   * @default p
+   */
+  tag: TextVariant;
+  /**
+   * @control boolean
+   * @default false
+   */
+  prominent?: boolean;
+  /**
+   * @control boolean
+   * @default false
+   * */
+  srOnly?: boolean;
+  /** @control text */
+  ariaLive?: 'polite' | 'assertive' | 'off';
+  /** @control text */
   className?: string;
+  /** @control select */
+  role?: 'status' | 'alert' | 'log' | 'marquee' | 'none';
+  /** @control text */
+  id?: string;
 } & VariantProps<typeof textVariants>;
+
+type TextWithHtml = BaseTextProps & {
+  /** @control boolean */
+  isHtml: true;
+  children: string;
+};
+
+type TextStandard = BaseTextProps & {
+  /** @control boolean */
+  isHtml?: false;
+  children: ReactNode;
+};
+
+export type TextProps = TextStandard | TextWithHtml;
