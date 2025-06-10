@@ -1,5 +1,4 @@
 import type dynamicIconImports from 'lucide-react/dynamicIconImports';
-import _ from './safelist';
 
 export type DynamicIconName = keyof typeof dynamicIconImports;
 

@@ -32,6 +32,7 @@ const NavBar: FC = () => {
             }`}
             title={t('homePage.es')}
             aria-label={t('homePage.switchToSpanish')}
+            aria-current={i18n.language === 'es' ? 'true' : undefined}
             tabIndex={0}
             onClick={() => toggleLanguage('es')}
             onKeyDown={(e) => {
@@ -46,6 +47,7 @@ const NavBar: FC = () => {
             }`}
             title={t('homePage.en')}
             aria-label={t('homePage.switchToEnglish')}
+            aria-current={i18n.language === 'en' ? 'true' : undefined}
             tabIndex={0}
             onClick={() => toggleLanguage('en')}
             onKeyDown={(e) => {
