@@ -10,6 +10,20 @@ export const useTheme = () => {
     setTheme('dark');
   }, []);
 
+  useEffect(() => {
+    const storedTheme = localStorage.getItem('app-theme');
+    const parsed = JSON.parse(storedTheme || '{}');
+    const themeParsed = parsed.state?.theme;
+
+    if (!themeParsed) {
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      setTheme(prefersDark ? 'dark' : 'light');
+    }
+
+    const root = document.documentElement;
+    root.classList.add(themeParsed ? themeParsed : theme);
+  }, [theme, setTheme]);
+
   return {
     theme,
     setTheme,
