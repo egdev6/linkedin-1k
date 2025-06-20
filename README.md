@@ -57,6 +57,15 @@ A heartfelt thank you to everyone who has supported this project and helped it g
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Resources
+
+- Lottiefiles -> https://lottiefiles.com/
+- canvas-confetti -> https://github.com/catdad/canvas-confetti
+- flag-icons -> https://github.com/lipis/flag-icons
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 
 ## Contact
 
