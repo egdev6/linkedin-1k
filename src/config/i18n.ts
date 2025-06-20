@@ -38,8 +38,8 @@ const resources = {
         message: '¡1000 gracias por tu apoyo! 💞 ',
         message2: 'Gracias por cada like, comentario y mensaje. Prometo seguir aportando valor con tu apoyo.',
         linkedin: 'Enlace Linkedin',
-        github: 'Enlace github link',
-        instagram: 'Enlace instagram link',
+        github: 'Enlace github',
+        instagram: 'Enlace instagram',
         letsParty: 'Fiestaaaa!'
       }
     }
