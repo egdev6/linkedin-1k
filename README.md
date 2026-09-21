@@ -23,6 +23,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
+[![License][license-shield]][license-url]
 
 </div>
 <!-- PROJECT LOGO -->
@@ -80,15 +81,22 @@ A heartfelt thank you to everyone who has supported this project and helped it g
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+---
+
+## License
+
+Distributed under the [MIT License][license].
+
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
+[license]: LICENSE
 [stars-shield]: https://img.shields.io/github/stars/egdev6/linkedin-1k.svg?style=for-the-badge
 [stars-url]: https://github.com/egdev6/linkedin-1k/stargazers
 [issues-shield]: https://img.shields.io/github/issues/egdev6/linkedin-1k.svg?style=for-the-badge
 [issues-url]: https://github.com/egdev6/linkedin-1k/issues
 [license-shield]: https://img.shields.io/github/license/egdev6/linkedin-1k.svg?style=for-the-badge
-[license-url]: https://github.com/egdev6/linkedin-1k/blob/master/LICENSE.txt
+[license-url]: https://github.com/egdev6/linkedin-1k/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/egdev6
 [demo-url]: https://linked-egdev-1k.netlify.app

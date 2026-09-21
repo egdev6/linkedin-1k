@@ -2,6 +2,7 @@
   "name": "egdev-linkedin-1k",
   "private": false,
   "version": "1.0.0",
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "dev": "vite",
